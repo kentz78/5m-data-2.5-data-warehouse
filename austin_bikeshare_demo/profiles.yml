@@ -1,7 +1,7 @@
-my_dbt_test:
+austin_bikeshare_demo:
   outputs:
     dev:
-      dataset: my_dbt_test
+      dataset: austin_bikeshare_demo
       job_execution_timeout_seconds: 300
       job_retries: 1
       location: US

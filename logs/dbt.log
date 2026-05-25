@@ -324,3 +324,210 @@ Runtime Error
 [0m11:48:04.404672 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a3fe8d27250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a3fe8cbabd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a3fed6adc10>]}
 [0m11:48:04.404953 [debug] [MainThread]: Flushing usage events
 [0m11:48:05.377961 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:53:09.485550 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x729a611c2c50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x729a6155fd90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x729a6122ef10>]}
+
+
+============================== 11:53:09.490650 | 6074207f-d7ad-47f3-acfe-42fd520d0bb5 ==============================
+[0m11:53:09.490650 [info ] [MainThread]: Running with dbt=1.10.9
+[0m11:53:09.491311 [debug] [MainThread]: running dbt with arguments {'send_anonymous_usage_stats': 'True', 'printer_width': '80', 'version_check': 'True', 'empty': 'None', 'target_path': 'None', 'fail_fast': 'False', 'write_json': 'True', 'quiet': 'False', 'invocation_command': 'dbt init austin_bikeshare_demo', 'profiles_dir': '/home/kentz78/.dbt', 'indirect_selection': 'eager', 'partial_parse': 'True', 'use_colors': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'warn_error': 'None', 'no_print': 'None', 'use_experimental_parser': 'False', 'log_path': '/home/kentz78/5m-data-2.5-data-warehouse/logs', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'cache_selected_only': 'False', 'log_cache_events': 'False', 'debug': 'False'}
+[0m11:53:09.524240 [info ] [MainThread]: Setting up your profile.
+[0m11:53:57.637164 [info ] [MainThread]: Profile my_dbt_test written to /home/kentz78/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m11:53:57.637963 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 46.773125, "process_in_blocks": "399368", "process_kernel_time": 3.634851, "process_mem_max_rss": "373696", "process_out_blocks": "24", "process_user_time": 7.278745}
+[0m11:53:57.638549 [debug] [MainThread]: Command `dbt init` succeeded at 11:53:57.638453 after 46.77 seconds
+[0m11:53:57.638931 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x729a61201cd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x729a61370110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x729a65a8cb90>]}
+[0m11:53:57.639311 [debug] [MainThread]: Flushing usage events
+[0m11:53:58.619497 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:02:52.111589 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7771407c5810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x777140833d50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7771407bef10>]}
+
+
+============================== 12:02:52.114521 | 2d1eae18-9ec2-4191-94fc-1cfad25f2bc8 ==============================
+[0m12:02:52.114521 [info ] [MainThread]: Running with dbt=1.10.9
+[0m12:02:52.114842 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'fail_fast': 'False', 'indirect_selection': 'eager', 'introspect': 'True', 'debug': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_cache_events': 'False', 'quiet': 'False', 'use_colors': 'True', 'printer_width': '80', 'empty': 'None', 'invocation_command': 'dbt init austin_bikeshare_demo', 'version_check': 'True', 'send_anonymous_usage_stats': 'True', 'log_format': 'default', 'warn_error': 'None', 'target_path': 'None', 'use_experimental_parser': 'False', 'cache_selected_only': 'False', 'no_print': 'None', 'write_json': 'True', 'log_path': '/home/kentz78/5m-data-2.5-data-warehouse/logs', 'profiles_dir': '/home/kentz78/.dbt', 'partial_parse': 'True'}
+[0m12:02:52.130913 [info ] [MainThread]: Setting up your profile.
+[0m12:03:34.812565 [info ] [MainThread]: Profile my_dbt_test written to /home/kentz78/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m12:03:34.813281 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 41.20994, "process_in_blocks": "398848", "process_kernel_time": 3.491907, "process_mem_max_rss": "375360", "process_out_blocks": "32", "process_user_time": 6.327071}
+[0m12:03:34.813829 [debug] [MainThread]: Command `dbt init` succeeded at 12:03:34.813739 after 41.21 seconds
+[0m12:03:34.814199 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x777140845c50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7771407d04d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x777140c5bd50>]}
+[0m12:03:34.814548 [debug] [MainThread]: Flushing usage events
+[0m12:03:36.126553 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:07:04.148693 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x724290cc37d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x724290d3a190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x724290d3aa50>]}
+
+
+============================== 12:07:04.152769 | 7654771a-e6d0-4a62-81ff-9fa9b1b133fa ==============================
+[0m12:07:04.152769 [info ] [MainThread]: Running with dbt=1.10.17
+[0m12:07:04.153229 [debug] [MainThread]: running dbt with arguments {'debug': 'False', 'version_check': 'True', 'log_format': 'default', 'indirect_selection': 'eager', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'log_cache_events': 'False', 'cache_selected_only': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'quiet': 'False', 'log_path': '/home/kentz78/5m-data-2.5-data-warehouse/logs', 'empty': 'None', 'send_anonymous_usage_stats': 'True', 'printer_width': '80', 'write_json': 'True', 'warn_error': 'None', 'no_print': 'None', 'partial_parse': 'True', 'profiles_dir': '/home/kentz78/.dbt', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'invocation_command': 'dbt init austin_bikeshare_demo --profiles-dir /home/kentz78/.dbt'}
+[0m12:07:04.169513 [info ] [MainThread]: Setting up your profile.
+[0m12:07:04.170811 [error] [MainThread]: Encountered an error:
+
+[0m12:07:04.173369 [error] [MainThread]: Traceback (most recent call last):
+  File "/home/kentz78/miniconda3/envs/dagster/lib/python3.11/site-packages/dbt/cli/requires.py", line 178, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kentz78/miniconda3/envs/dagster/lib/python3.11/site-packages/dbt/cli/requires.py", line 128, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kentz78/miniconda3/envs/dagster/lib/python3.11/site-packages/dbt/cli/main.py", line 483, in init
+    results = task.run()
+              ^^^^^^^^^^
+  File "/home/kentz78/miniconda3/envs/dagster/lib/python3.11/site-packages/dbt/task/init.py", line 320, in run
+    self.setup_profile(profile_name)
+  File "/home/kentz78/miniconda3/envs/dagster/lib/python3.11/site-packages/dbt/task/init.py", line 248, in setup_profile
+    if not self.check_if_can_write_profile(profile_name=profile_name):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kentz78/miniconda3/envs/dagster/lib/python3.11/site-packages/dbt/task/init.py", line 211, in check_if_can_write_profile
+    response = click.confirm(
+               ^^^^^^^^^^^^^^
+  File "/home/kentz78/miniconda3/envs/dagster/lib/python3.11/site-packages/click/termui.py", line 253, in confirm
+    raise Abort() from None
+click.exceptions.Abort
+
+[0m12:07:04.174786 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": false, "command_wall_clock_time": 0.086199135, "process_in_blocks": "112320", "process_kernel_time": 0.374104, "process_mem_max_rss": "103476", "process_out_blocks": "16", "process_user_time": 1.315816}
+[0m12:07:04.175246 [debug] [MainThread]: Command `dbt init` failed at 12:07:04.175145 after 0.09 seconds
+[0m12:07:04.175604 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x724290cc9390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x724290cc8810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7242954cc9d0>]}
+[0m12:07:04.175928 [debug] [MainThread]: Flushing usage events
+[0m12:07:05.173071 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:07:55.543334 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c80994cc450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c809977a150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c809950ff10>]}
+
+
+============================== 12:07:55.547613 | ed3dce98-350d-4738-b2af-544eebbe587f ==============================
+[0m12:07:55.547613 [info ] [MainThread]: Running with dbt=1.10.17
+[0m12:07:55.548105 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'fail_fast': 'False', 'version_check': 'True', 'cache_selected_only': 'False', 'introspect': 'True', 'empty': 'None', 'send_anonymous_usage_stats': 'True', 'target_path': 'None', 'quiet': 'False', 'use_experimental_parser': 'False', 'profiles_dir': '/home/kentz78/.dbt', 'use_colors': 'True', 'log_cache_events': 'False', 'log_path': '/home/kentz78/5m-data-2.5-data-warehouse/logs', 'debug': 'False', 'invocation_command': 'dbt init austin_bikeshare_demo --profiles-dir /home/kentz78/.dbt', 'indirect_selection': 'eager', 'log_format': 'default', 'static_parser': 'True', 'no_print': 'None', 'write_json': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'warn_error': 'None', 'partial_parse': 'True'}
+[0m12:07:55.562771 [info ] [MainThread]: Setting up your profile.
+[0m12:07:55.563981 [error] [MainThread]: Encountered an error:
+
+[0m12:07:55.566932 [error] [MainThread]: Traceback (most recent call last):
+  File "/home/kentz78/miniconda3/envs/dagster/lib/python3.11/site-packages/dbt/cli/requires.py", line 178, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kentz78/miniconda3/envs/dagster/lib/python3.11/site-packages/dbt/cli/requires.py", line 128, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kentz78/miniconda3/envs/dagster/lib/python3.11/site-packages/dbt/cli/main.py", line 483, in init
+    results = task.run()
+              ^^^^^^^^^^
+  File "/home/kentz78/miniconda3/envs/dagster/lib/python3.11/site-packages/dbt/task/init.py", line 320, in run
+    self.setup_profile(profile_name)
+  File "/home/kentz78/miniconda3/envs/dagster/lib/python3.11/site-packages/dbt/task/init.py", line 248, in setup_profile
+    if not self.check_if_can_write_profile(profile_name=profile_name):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kentz78/miniconda3/envs/dagster/lib/python3.11/site-packages/dbt/task/init.py", line 211, in check_if_can_write_profile
+    response = click.confirm(
+               ^^^^^^^^^^^^^^
+  File "/home/kentz78/miniconda3/envs/dagster/lib/python3.11/site-packages/click/termui.py", line 253, in confirm
+    raise Abort() from None
+click.exceptions.Abort
+
+[0m12:07:55.568197 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": false, "command_wall_clock_time": 0.085123695, "process_in_blocks": "97312", "process_kernel_time": 0.256417, "process_mem_max_rss": "103860", "process_out_blocks": "16", "process_user_time": 1.350464}
+[0m12:07:55.568606 [debug] [MainThread]: Command `dbt init` failed at 12:07:55.568510 after 0.09 seconds
+[0m12:07:55.569164 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c80994ccb50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c80994cc950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c809977a010>]}
+[0m12:07:55.569504 [debug] [MainThread]: Flushing usage events
+[0m12:07:56.571964 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:08:51.458097 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7482fdab4710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7483000edd90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7482fdab4150>]}
+
+
+============================== 12:08:51.461509 | c77eaece-6f09-4f2d-a8c1-990845ee1409 ==============================
+[0m12:08:51.461509 [info ] [MainThread]: Running with dbt=1.10.17
+[0m12:08:51.461983 [debug] [MainThread]: running dbt with arguments {'log_path': '/home/kentz78/5m-data-2.5-data-warehouse/logs', 'write_json': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'empty': 'None', 'profiles_dir': '/home/kentz78/.dbt', 'cache_selected_only': 'False', 'log_cache_events': 'False', 'use_colors': 'True', 'warn_error': 'None', 'use_experimental_parser': 'False', 'log_format': 'default', 'invocation_command': 'dbt init austin_bikeshare_demo --profiles-dir /home/kentz78/.dbt --skip-profile-setup', 'fail_fast': 'False', 'no_print': 'None', 'indirect_selection': 'eager', 'static_parser': 'True', 'introspect': 'True', 'quiet': 'False', 'send_anonymous_usage_stats': 'True', 'debug': 'False', 'partial_parse': 'True', 'printer_width': '80', 'version_check': 'True'}
+[0m12:08:51.469753 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.07280965, "process_in_blocks": "0", "process_kernel_time": 0.187057, "process_mem_max_rss": "103588", "process_out_blocks": "8", "process_user_time": 1.238734}
+[0m12:08:51.470348 [debug] [MainThread]: Command `dbt init` succeeded at 12:08:51.470187 after 0.07 seconds
+[0m12:08:51.470743 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7482fdab5790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x748302392950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7483022448d0>]}
+[0m12:08:51.471114 [debug] [MainThread]: Flushing usage events
+[0m12:08:52.522093 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:09:17.651622 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x784850f3ed90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x784850f3fe50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x784850f3fb10>]}
+
+
+============================== 12:09:17.654567 | 32f86d18-8cb5-4a11-96d9-218174342183 ==============================
+[0m12:09:17.654567 [info ] [MainThread]: Running with dbt=1.10.17
+[0m12:09:17.655042 [debug] [MainThread]: running dbt with arguments {'warn_error': 'None', 'use_experimental_parser': 'False', 'empty': 'None', 'log_format': 'default', 'fail_fast': 'False', 'write_json': 'True', 'partial_parse': 'True', 'introspect': 'True', 'profiles_dir': '/home/kentz78/.dbt', 'use_colors': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'quiet': 'False', 'target_path': 'None', 'log_path': '/home/kentz78/5m-data-2.5-data-warehouse/logs', 'debug': 'False', 'indirect_selection': 'eager', 'printer_width': '80', 'no_print': 'None', 'log_cache_events': 'False', 'send_anonymous_usage_stats': 'True', 'cache_selected_only': 'False', 'invocation_command': 'dbt init austin_bikeshare_demo --profiles-dir /home/kentz78/.dbt --skip-profile-setup', 'version_check': 'True'}
+[0m12:09:17.662565 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.0834307, "process_in_blocks": "0", "process_kernel_time": 0.202404, "process_mem_max_rss": "103676", "process_out_blocks": "0", "process_user_time": 1.193341}
+[0m12:09:17.663045 [debug] [MainThread]: Command `dbt init` succeeded at 12:09:17.662959 after 0.08 seconds
+[0m12:09:17.663334 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x784851063510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7848557b2950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x784855688910>]}
+[0m12:09:17.663623 [debug] [MainThread]: Flushing usage events
+[0m12:09:18.617152 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:10:06.258497 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7dfa6cbf4390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7dfa6cbe3990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7dfa6cd8b990>]}
+
+
+============================== 12:10:06.262733 | 2efee520-c204-4e38-b6b4-4e998ca9f699 ==============================
+[0m12:10:06.262733 [info ] [MainThread]: Running with dbt=1.10.17
+[0m12:10:06.263266 [debug] [MainThread]: running dbt with arguments {'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'warn_error': 'None', 'printer_width': '80', 'target_path': 'None', 'quiet': 'False', 'use_experimental_parser': 'False', 'no_print': 'None', 'write_json': 'True', 'profiles_dir': '/home/kentz78/.dbt', 'log_path': '/home/kentz78/5m-data-2.5-data-warehouse/logs', 'log_cache_events': 'False', 'introspect': 'True', 'invocation_command': 'dbt init . --profiles-dir /home/kentz78/.dbt --skip-profile-setup', 'cache_selected_only': 'False', 'use_colors': 'True', 'version_check': 'True', 'empty': 'None', 'log_format': 'default', 'indirect_selection': 'eager', 'static_parser': 'True', 'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'debug': 'False'}
+[0m12:10:06.279966 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.091735914, "process_in_blocks": "97248", "process_kernel_time": 0.36629, "process_mem_max_rss": "103016", "process_out_blocks": "8", "process_user_time": 1.26728}
+[0m12:10:06.280612 [debug] [MainThread]: Command `dbt init` succeeded at 12:10:06.280506 after 0.09 seconds
+[0m12:10:06.280946 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7dfa6cc36910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7dfa713849d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7dfa714ae850>]}
+[0m12:10:06.281275 [debug] [MainThread]: Flushing usage events
+[0m12:10:07.290432 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:10:33.215350 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c04ce4d4310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c04ce514990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c04ce786e50>]}
+
+
+============================== 12:10:33.218630 | 8f0f455b-a537-4c53-8f03-39afd5e67d13 ==============================
+[0m12:10:33.218630 [info ] [MainThread]: Running with dbt=1.10.17
+[0m12:10:33.219031 [debug] [MainThread]: running dbt with arguments {'empty': 'None', 'profiles_dir': '/home/kentz78/.dbt', 'use_experimental_parser': 'False', 'log_cache_events': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'no_print': 'None', 'log_format': 'default', 'use_colors': 'True', 'fail_fast': 'False', 'printer_width': '80', 'version_check': 'True', 'indirect_selection': 'eager', 'target_path': 'None', 'quiet': 'False', 'static_parser': 'True', 'cache_selected_only': 'False', 'write_json': 'True', 'warn_error': 'None', 'partial_parse': 'True', 'introspect': 'True', 'send_anonymous_usage_stats': 'True', 'log_path': '/home/kentz78/5m-data-2.5-data-warehouse/logs', 'debug': 'True', 'invocation_command': 'dbt init . --profiles-dir /home/kentz78/.dbt --skip-profile-setup -d'}
+[0m12:10:33.225676 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.07039198, "process_in_blocks": "0", "process_kernel_time": 0.191866, "process_mem_max_rss": "103468", "process_out_blocks": "0", "process_user_time": 1.176226}
+[0m12:10:33.226353 [debug] [MainThread]: Command `dbt init` succeeded at 12:10:33.226214 after 0.07 seconds
+[0m12:10:33.226734 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c04ce50fb90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c04d2c849d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c04d2dae950>]}
+[0m12:10:33.227073 [debug] [MainThread]: Flushing usage events
+[0m12:10:34.196430 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:12:33.703205 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x787c297dce90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x787c29973790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x787c297d74d0>]}
+
+
+============================== 12:12:33.705906 | 0a3a139f-d74d-4bb1-9dc1-81b846176cd2 ==============================
+[0m12:12:33.705906 [info ] [MainThread]: Running with dbt=1.10.17
+[0m12:12:33.706342 [debug] [MainThread]: running dbt with arguments {'log_path': '/home/kentz78/5m-data-2.5-data-warehouse/logs', 'invocation_command': 'dbt init austin_bikeshare_demo2 --profiles-dir /home/kentz78/.dbt --skip-profile-setup', 'version_check': 'True', 'log_cache_events': 'False', 'log_format': 'default', 'fail_fast': 'False', 'empty': 'None', 'target_path': 'None', 'partial_parse': 'True', 'cache_selected_only': 'False', 'debug': 'False', 'no_print': 'None', 'write_json': 'True', 'warn_error': 'None', 'quiet': 'False', 'profiles_dir': '/home/kentz78/.dbt', 'send_anonymous_usage_stats': 'True', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'printer_width': '80', 'introspect': 'True', 'use_colors': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True'}
+[0m12:12:33.712754 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.066174716, "process_in_blocks": "0", "process_kernel_time": 0.220393, "process_mem_max_rss": "103684", "process_out_blocks": "16", "process_user_time": 1.12276}
+[0m12:12:33.713276 [debug] [MainThread]: Command `dbt init` succeeded at 12:12:33.713180 after 0.07 seconds
+[0m12:12:33.713597 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x787c29854450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x787c29855450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x787c2e0ae950>]}
+[0m12:12:33.713926 [debug] [MainThread]: Flushing usage events
+[0m12:12:34.678589 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:12:54.164536 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79d6a7fac550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79d6a7fac490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79d6a7fac210>]}
+
+
+============================== 12:12:54.167292 | 73fbf977-39f3-4a98-bac1-76cb551840d3 ==============================
+[0m12:12:54.167292 [info ] [MainThread]: Running with dbt=1.10.17
+[0m12:12:54.167680 [debug] [MainThread]: running dbt with arguments {'write_json': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'no_print': 'None', 'log_cache_events': 'False', 'log_path': '/home/kentz78/5m-data-2.5-data-warehouse/logs', 'fail_fast': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init austin_bikeshare_demo2 --profiles-dir /home/kentz78/.dbt --skip-profile-setup', 'printer_width': '80', 'quiet': 'False', 'use_colors': 'True', 'static_parser': 'True', 'debug': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'profiles_dir': '/home/kentz78/.dbt', 'log_format': 'default', 'introspect': 'True', 'version_check': 'True'}
+[0m12:12:54.173701 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.072559245, "process_in_blocks": "0", "process_kernel_time": 0.241987, "process_mem_max_rss": "103324", "process_out_blocks": "0", "process_user_time": 1.184905}
+[0m12:12:54.174248 [debug] [MainThread]: Command `dbt init` succeeded at 12:12:54.174143 after 0.07 seconds
+[0m12:12:54.174578 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79d6a8e8f1d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79d6a7fad5d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79d6ac86e850>]}
+[0m12:12:54.174890 [debug] [MainThread]: Flushing usage events
+[0m12:12:55.148220 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:16:32.175317 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7070bacbbd50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7070bad2f150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7070bad0d410>]}
+
+
+============================== 12:16:32.177449 | eb1fcccf-733a-430e-b888-1e662349b85f ==============================
+[0m12:16:32.177449 [info ] [MainThread]: Running with dbt=1.10.9
+[0m12:16:32.177782 [debug] [MainThread]: running dbt with arguments {'send_anonymous_usage_stats': 'True', 'target_path': 'None', 'warn_error': 'None', 'fail_fast': 'False', 'printer_width': '80', 'invocation_command': 'dbt init austin_bikeshare_demo', 'log_path': '/home/kentz78/5m-data-2.5-data-warehouse/logs', 'empty': 'None', 'version_check': 'True', 'profiles_dir': '/home/kentz78/.dbt', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_experimental_parser': 'False', 'introspect': 'True', 'write_json': 'True', 'log_cache_events': 'False', 'use_colors': 'True', 'quiet': 'False', 'indirect_selection': 'eager', 'debug': 'False', 'partial_parse': 'True', 'no_print': 'None', 'cache_selected_only': 'False'}
+[0m12:16:32.196141 [info ] [MainThread]: Setting up your profile.
+[0m12:17:17.671004 [info ] [MainThread]: Profile my_dbt_test written to /home/kentz78/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m12:17:17.671868 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 44.037037, "process_in_blocks": "1024", "process_kernel_time": 3.292399, "process_mem_max_rss": "376632", "process_out_blocks": "32", "process_user_time": 6.32657}
+[0m12:17:17.672472 [debug] [MainThread]: Command `dbt init` succeeded at 12:17:17.672377 after 44.04 seconds
+[0m12:17:17.672841 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7070bad3a550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7070bb055e10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7070bf508190>]}
+[0m12:17:17.673195 [debug] [MainThread]: Flushing usage events
+[0m12:17:18.712713 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:44:26.872429 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bdcc8fbeb90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bdcc90366d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bdcc8fc5450>]}
+
+
+============================== 14:44:26.879630 | b89d1d16-fac0-47d1-9d53-94992892eb78 ==============================
+[0m14:44:26.879630 [info ] [MainThread]: Running with dbt=1.10.9
+[0m14:44:26.880702 [debug] [MainThread]: running dbt with arguments {'log_cache_events': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs', 'log_format': 'default', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'indirect_selection': 'eager', 'version_check': 'True', 'cache_selected_only': 'False', 'debug': 'False', 'no_print': 'None', 'target_path': 'None', 'write_json': 'True', 'warn_error': 'None', 'quiet': 'False', 'partial_parse': 'True', 'introspect': 'True', 'empty': 'None', 'printer_width': '80', 'profiles_dir': '/home/kentz78/.dbt', 'static_parser': 'True', 'invocation_command': 'dbt init austin_bikeshare_demo', 'fail_fast': 'False', 'send_anonymous_usage_stats': 'True'}
+[0m14:44:26.914512 [debug] [MainThread]: Starter project path: /home/kentz78/miniconda3/envs/elt/lib/python3.11/site-packages/dbt/include/starter_project
+[0m14:44:26.925296 [info ] [MainThread]: 
+Your new dbt project "austin_bikeshare_demo" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:44:26.925870 [info ] [MainThread]: Setting up your profile.
+[0m14:45:37.260597 [info ] [MainThread]: Profile austin_bikeshare_demo written to /home/kentz78/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m14:45:37.261553 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 66.51924, "process_in_blocks": "455024", "process_kernel_time": 4.086202, "process_mem_max_rss": "374692", "process_out_blocks": "88", "process_user_time": 7.232892}
+[0m14:45:37.262380 [debug] [MainThread]: Command `dbt init` succeeded at 14:45:37.262273 after 66.52 seconds
+[0m14:45:37.262891 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bdcc8fd0250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bdcc900d010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bdccd8781d0>]}
+[0m14:45:37.263429 [debug] [MainThread]: Flushing usage events
+[0m14:45:38.464239 [debug] [MainThread]: An error was encountered while trying to flush usage events
